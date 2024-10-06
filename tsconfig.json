@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
         "outDir": "dist",
+        "target": "esnext",
+        "noEmitOnError": true,
+        "strict": true,
     },
     "files": [
         "src/app.ts",
